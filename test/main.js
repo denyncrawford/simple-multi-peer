@@ -1,7 +1,7 @@
 var SimpleMultiPeer = require("../lib/index");
 
 var Peers = new SimpleMultiPeer({
-  server: "wss://live-code-gv.herokuapp.com/", // Your signaller URL.
+  server: "wss://localhost:3000", // Your signaller URL.
   room: "foobar", // Which 'room' you'll be using to communicate with your peers
 });
 

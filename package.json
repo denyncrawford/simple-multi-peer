@@ -1,5 +1,5 @@
 {
-  "name": "@denyncrawfor/multi-p2p",
+  "name": "multi-p2p",
   "version": "0.0.2",
   "description": "WebRTC multi-peer made simple",
   "main": "./lib/index.js",
