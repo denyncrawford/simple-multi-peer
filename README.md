@@ -1,10 +1,12 @@
-# Simple Multi Peer
+# Multi P2P
+
+This is a [simple-multi-peer](https://github.com/nihey/simple-multi-peer/) fork but with a reinforced event-based API (just like socket.io) currently under development.
 
 WebRTC multi-peer communication made simple (using [simple-peer](https://github.com/feross/simple-peer))
 
 # Installation
 ```
-$ npm install --save simple-multi-peer
+$ npm install --save multi-p2p
 ```
 
 # Usage
@@ -25,9 +27,26 @@ var Peers = new SimpleMultiPeer({
   }
 });
 
-// Send data over a dataChannel to all peers
-Peers.send("I'm alive!!!");
+// Send data over a subDataChannel to all peers with custom events and easy to read data.
+
+Peers.emit("pizza", "Your pizza is ready!")
+
+Peers.on("pizza", (data) => {
+  Peers.emit("Thanks", {tips:"10$",stars:5});
+})
+
 ```
+
+# Changes
+
+  - Now logs are silent
+  - Event based API
+
+# To DO
+
+  - Broacasting methods
+  - Complete Rewrite
+  - State management plugin.
 
 # License
 
