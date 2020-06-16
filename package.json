@@ -1,6 +1,6 @@
 {
   "name": "multi-p2p",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "WebRTC multi-peer made simple",
   "main": "./lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nihey/simple-multi-peer.git"
+    "url": "https://github.com/denyncrawford/simple-multi-peer.git"
   },
   "keywords": [
     "webrtc",
@@ -17,10 +17,10 @@
     "multi",
     "peer"
   ],
-  "author": "Nihey Takizawa <nihey.takizawa@gmail.com>",
+  "author": "Crawford <kiqurangelbb@gmail.com>",
   "license": "CC0",
   "bugs": {
-    "url": "https://github.com/nihey/simple-multi-peer/issues"
+    "url": "https://github.com/denyncrawford/simple-multi-peer/issues"
   },
   "dependencies": {
     "extend": "^3.0.0",
