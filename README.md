@@ -14,9 +14,9 @@ $ npm install --save multi-p2p
 As a signalling server it is recommended to use [peer-hub](https://github.com/nihey/node-peer-hub).
 
 ```javascript
-var SimpleMultiPeer = require('simple-multi-peer');
+var MultiP2P = require('multi-p2p');
 
-var Peers = new SimpleMultiPeer({
+var Peers = new MultiP2P({
   server: 'ws://localhost:3000', // Your signaller URL.
   room: 'foobar',                // Which 'room' you'll be using to communicate with your peers
                                  // (all peers in the same room will be signalled to each other).
