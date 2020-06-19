@@ -44,9 +44,16 @@ Peers.on("pizza", (data) => {
 
 # To DO
 
-  - Broacasting methods
+  - Broadcasting methods
   - Complete Rewrite
   - State management plugin.
+  - FIX: Pending data accumulator/trigger for emitted events if no peers are connected (001).
+  - FIX: WevRTC Polyfill for node environment.
+
+# Known Bugs
+
+- If there is no peer connected and data is being sent, there will be an error since it is unable to communicate with anything (ERROR-REF=001).
+- Node is not supported (ERROR-REF=002).
 
 # License
 

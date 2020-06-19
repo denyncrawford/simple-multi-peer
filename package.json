@@ -1,6 +1,6 @@
 {
   "name": "multi-p2p",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "WebRTC multi-peer made simple",
   "main": "./lib/index.js",
   "scripts": {
