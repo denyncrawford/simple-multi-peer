@@ -1,7 +1,7 @@
 import SimpleMultiPeer from '../lib/index';
 
 var Peers = new SimpleMultiPeer({
-  server: "wss://live-code-gv.herokuapp.com/", // Your signaller URL.
+  server: process.env.SIGNALLING_SERVER || "ws://localhost:3000", // Your signaller URL.
   room: "test", // Which 'room' you'll be using to communicate with your peers
 });
 
