@@ -48,7 +48,7 @@ Peers.on("pizza", (data) => {
   - Complete Rewrite
   - State management plugin.
   - FIX: Pending data accumulator/trigger for emitted events if no peers are connected (001).
-  - FIX: WevRTC Polyfill for node environment.
+  - FIX: WebRTC Polyfill for node environment (002).
 
 # Known Bugs
 
